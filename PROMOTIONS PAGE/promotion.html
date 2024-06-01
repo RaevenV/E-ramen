@@ -1,0 +1,333 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../HOME PAGE/style.css">
+    <link rel="stylesheet" href="promotion.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="promotion.js"></script>
+    <title>E-Ramen</title>
+</head>
+
+<body>
+
+    <div  class="img-background">
+      <header>
+        <div class="nav-wrapper">
+            <div class="logo-container">
+                <img class="logo" src="../extra pics/logo-clear.png" alt="Logo">
+            </div>
+            <nav>
+                <input class="hidden" type="checkbox" id="menuToggle">
+                <label class="menu-btn" for="menuToggle">
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                    <div class="menu"></div>
+                </label>
+                <div class="nav-container">
+                    <ul class="nav-tabs">
+                        <li class="nav-tab"><a href="/HOME PAGE/home.html">home</a></li>
+                        <li class="nav-tab"><a href="../PRODUCTS PAGE/products.html">products</a></li>
+                        <li class="nav-tab"><a href="../PROMOTIONS PAGE/promotion.html">promotions</a></li>
+                        <li class="nav-tab"><a href="../ABOUT US/aboutus.html">about us</a></li>
+                        <li class="nav-tab"><a href="../CONTACT US/contact.html">contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+      </header>
+    </div>
+
+
+    <div class="promotion-title-container1">
+      <div class="promotion-title-wrapper">
+          <h2>Discounted Prices</h2>
+          <div class="hor-wrapper">
+            <div class="hor-line"></div>
+          </div>
+      </div>
+    </div>
+    
+
+    <div class="drop-container">
+      <button class="dropbtn" onclick="toggleDropdown()">
+        <div class="text-ramen">Ramen</div>
+  
+        <img id="down-arrow" src="../PRODUCTS PAGE/assets/down-arrow.png" alt="">
+        <img id="up-arrow" src="../PRODUCTS PAGE/assets/up-arrow.png" alt="">
+      </button>
+  
+      <div id="dropdown-content" class="dropdown-content">
+        <div class="dropdown-wrapper">
+  
+          <!-- shoyu -->
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../ramen menus/shoyu.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Shoyu Ramen</div>
+              <div class="ramen-desc">A Japanese favorite, with a savory soy sauce broth that perfectly complements the tender noodles. Topped with a medley of delicious ingredients, it's a satisfying bowl of pure comfort.
+              </div>
+  
+              <div class="ramen-price">35K</div>
+            </div>
+          </div>
+  
+  
+          <!-- tonkotsu -->
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../ramen menus/tonkotsu ramen.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Tonkotsu Ramen</div>
+              <div class="ramen-desc">A beloved Japanese dish featuring pork bone broth, accompanied by tender noodles, succulent pork slices, and flavorful toppings. It's a bowlful of pure satisfaction and umami goodness.
+              </div>
+  
+              <div class="ramen-price">35K</div>
+            </div>
+          </div>
+  
+  
+          <!-- miso -->
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../ramen menus/miso ramen.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Miso Ramen</div>
+              <div class="ramen-desc">Its rich and savory miso broth pairs perfectly with tender noodles, flavorful pork slices, and a variety of toppings. This bowl of goodness brings together satisfying flavors that warm the heart.</div>
+              <div class="ramen-price">35K</div>
+            </div>
+          </div>
+  
+          <!-- curry -->
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../ramen menus/curry ramen.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Curry Ramen</div>
+              <div class="ramen-desc">A delightful fusion of Japanese and Indian flavors, where aromatic curry broth dances with springy noodles, delectable slices of tender meat, and an array of tantalizing toppings.
+              </div>
+  
+              <div class="ramen-price">35K</div>
+            </div>
+          </div>
+  
+          <!-- Abura soba -->
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../ramen menus/abura soba.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Abura Soba</div>
+              <div class="ramen-desc">A classic dish that takes noodles to new heights by removing the broth and instead coating them in a thick soy-based sauce.
+              </div>
+  
+              <div class="ramen-price">35K</div>
+            </div>
+          </div>
+  
+          <!-- Tsukemen -->
+  
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../ramen menus/tsukemen.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Tsukemen</div>
+              <div class="ramen-desc">Offers a unique twist on traditional ramen. With its separate bowl of thick, chewy noodles and rich, concentrated dipping broth, each bite becomes a sensational experience of dipping, slurping, and savoring the harmonious blend of flavors.
+              </div>
+  
+              <div class="ramen-price">35K</div>
+            </div>
+          </div>
+  
+          <!-- Shio -->
+  
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../ramen menus/shio ramen.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Shio Ramen</div>
+              <div class="ramen-desc">A delightful Japanese classic, boasts a light and refreshing flavor profile. With its clear and delicate salt-based broth, each spoonful of shio ramen delivers a harmonious blend of simplicity and satisfaction.
+              </div>
+  
+              <div class="ramen-price">35K</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="drop-container">
+      <button class="dropbtn" onclick="toggleDropdown2()">
+        <div class="text-ramen">Tempura</div>
+  
+        <img id="down-arrow1" src="../PRODUCTS PAGE/assets/down-arrow.png" alt="">
+        <img id="up-arrow1" src="../PRODUCTS PAGE/assets/up-arrow.png" alt="">
+      </button>
+  
+      <div id="dropdown-content1" class="dropdown-content">
+        <div class="dropdown-wrapper">
+  
+          <!-- Tempura -->
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../tempura menus/tempura.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Shrimp Tempura</div>
+              <div class="ramen-desc">A crispy Japanese delight with a delectable mix of vegetables and shrimp. It's a satisfying combination of crunch and savory flavors that will leave you wanting more.
+              </div>
+  
+              <div class="ramen-price">20K</div>
+            </div>
+          </div>
+  
+  
+          <!-- Karaage -->
+          <div class="content-box">
+  
+            <div class="content-img-wrapper">
+              <img class="content-image" src="../tempura menus/karaage.jpg" alt="">
+            </div>
+            
+            <div class="ramen-desc-wrapper">
+              <div class="ramen-title">Chicken Karaage</div>
+              <div class="ramen-desc">a mouthwatering Japanese dish known for its irresistibly crispy and juicy fried chicken. With its perfectly seasoned and marinated bite-sized pieces, karaage offers a delightful explosion of flavor with every tender bite.       
+              </div>
+  
+              <div class="ramen-price">20K</div>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+      
+      
+    </div>
+
+    <div class="promotion-title-container">
+      <div class="promotion-title-wrapper">
+          <h2>Special Promos</h2>
+          <div class="hor-wrapper">
+            <div class="hor-line"></div>
+          </div>
+      </div>
+    </div>
+
+    
+    <div class="big-container">
+      <div class="big-container-wrapper">
+        <div class="gopay-wrapper">
+          <img src="./assets/gopay.png" alt="" id="gopay-img1">
+        </div>
+    
+        <div class="ovo-wrapper">
+          <img src="./assets/shopee.png" alt="" id="gopay-img2">
+        </div>
+    
+        <div class="shopee-wrapper">
+          <img src="./assets/ovo.png" alt="" id="gopay-img3">
+        </div>
+    
+        <div class="dana-wrapper">
+          <img src="./assets/dana.png" alt="" id="gopay-img4">
+        </div>        
+      </div>
+    </div>
+
+    
+
+    <div class="promotion-title-container">
+        <div class="promotion-title-wrapper">
+            <h2>Limited promos</h2>
+            <div class="hor-wrapper">
+              <div class="hor-line"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="promotion-container">
+      <div class="banner-wrapper">
+        <a class="banner-img" href="#"> <img src="../extra pics/banner-1.jpg" alt="Promotion Banner"></a>
+        <a id="img1" class="banner-img" href="#"> <img src="../extra pics/banner-2.jpg" alt="Promotion Banner"></a>
+      </div>
+    </div> 
+
+    
+    
+
+    <section class="footer">
+      <div class="footer-wrapper">
+        <div class="address-wrapper">
+          <div class="address-title-text">Address</div>
+  
+          <div class="address-text-wrapper">
+            <div class="address-text">Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten 15143</div>
+          </div>
+  
+        </div>
+        
+        <div class="contact-wrapper">
+          <div class="contact-title-text">Contact Us</div>
+  
+          <div class="contact-text-wrapper">
+            <div class="contact-text">+62 87877662728</div>
+            <div class="contact-text">+62 87877662728</div>
+          </div>
+          
+        </div>
+  
+        <div class="time-wrapper">
+          <div class="time-title-text">Working Hours</div>
+  
+          <div class="time-text-wrapper">
+            <div class="time-text">Weekday  : 07:30 - 21:00</div>
+            <div class="time-text">Weekdend : 07:30 - 24:00</div>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"  title="facebook"> 
+          <i class="fa fa-facebook-square" aria-hidden="true"></i>
+        </a>
+        <a href="#" title="twitter"> 
+          <i class="fa fa-twitter-square" aria-hidden="true"></i>
+        </a>
+        <a href="#" title="instagram">  
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+      </div>
+
+
+    </section>
+  
+
+</body>
+</html>     

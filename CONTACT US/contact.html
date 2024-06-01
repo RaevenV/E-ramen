@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../HOME PAGE/style.css">
+    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>E-Ramen</title>
+</head>
+<body>
+
+    <div  class="img-background">
+        <header>
+          <div class="nav-wrapper">
+              <div class="logo-container">
+                  <img class="logo" src="../extra pics/logo-clear.png" alt="Logo">
+              </div>
+              <nav>
+                  <input class="hidden" type="checkbox" id="menuToggle">
+                  <label class="menu-btn" for="menuToggle">
+                      <div class="menu"></div>
+                      <div class="menu"></div>
+                      <div class="menu"></div>
+                  </label>
+                  <div class="nav-container">
+                      <ul class="nav-tabs">
+                          <li class="nav-tab"><a href="../HOME PAGE/home.html">home</a></li>
+                          <li class="nav-tab"><a href="../PRODUCTS PAGE/products.html">products</a></li>
+                          <li class="nav-tab"><a href="../PROMOTIONS PAGE/promotion.html">promotions</a></li>
+                          <li class="nav-tab"><a href="../ABOUT US/aboutus.html">about us</a></li>
+                          <li class="nav-tab"><a href="./contact.html">contact us</a></li>
+                      </ul>
+                  </div>
+              </nav>
+          </div>
+        </header>
+    </div>
+
+    <div class="blabla"><h1>Registration Form</h1></div>
+    <div class="container">
+        <div class="wrapper">
+            <div class="name-container">
+                <label for="fullname" class="h-text">Full Name</label>
+                <input type="text" id="fullname" name="fullname" class="text-box" placeholder="Enter your name">
+            </div>
+
+            <div class="email-container">
+                <label for="email" class="h-text">E-mail</label>
+                <input type="text" id="email" name="email" class="text-box" placeholder="Enter your e-mail">
+            </div>
+
+            <div class="number-container">
+                <label for="number" class="h-text">Phone Number</label>
+                <input type="tel" id="number" name="number" class="text-box" placeholder="Enter your phone number">
+            </div>
+
+            <div class="preference-container">
+                <div class="h-text">Preferences</div>
+
+                <div class="selection-container">
+                    <div class="selection-wrapper">
+                        <input type="radio" id="Wetramen" name="ramenType" class="radio-btn">
+                        <label for="Wetramen" class="s-text">Wet Ramen</label>
+                    </div>
+
+                    <div class="selection-wrapper">
+                        <input type="radio" id="Dryramen" name="ramenType" class="radio-btn">
+                        <label for="Dryramen" class="s-text">Dry Ramen</label>
+                    </div>
+                </div>
+                
+            </div>
+
+            <div class="complaint-container">
+              <label for="complaint" class="h-text">Feedback</label>
+              <textarea name="complaint" id="complaint" class="text-box-big" cols="30" rows="10"></textarea>
+            </div>
+
+            <div class="agreement-container">
+                <input type="checkbox" id="agreement" name="agreement" class="check-box">
+                <div class="z-text">I agree to receive newsletters from E-Ramen.</div>
+            </div>
+
+            <div class="submit-container">
+              <button type="button" onclick=checkInput() class="submit-btn">Submit</button>
+            </div>
+
+        </div>
+        
+        
+    </div>
+
+
+
+
+    <section class="footer">
+        <div class="footer-wrapper">
+          <div class="address-wrapper">
+            <div class="address-title-text">Address</div>
+    
+            <div class="address-text-wrapper">
+              <div class="address-text">Jl. Jalur Sutera Bar. No.Kav. 21, RT.001/RW.004, Panunggangan, Kec. Pinang, Kota Tangerang, Banten 15143</div>
+            </div>
+    
+          </div>
+          
+          <div class="contact-wrapper">
+            <div class="contact-title-text">Contact Us</div>
+    
+            <div class="contact-text-wrapper">
+              <div class="contact-text">+62 87877662728</div>
+              <div class="contact-text">+62 87877662728</div>
+            </div>
+            
+          </div>
+    
+          <div class="time-wrapper">
+            <div class="time-title-text">Working Hours</div>
+    
+            <div class="time-text-wrapper">
+              <div class="time-text">Weekday  : 07:30 - 21:00</div>
+              <div class="time-text">Weekdend : 07:30 - 24:00</div>
+            </div>
+            
+          </div>
+        </div>
+  
+        <div class="social-icons">
+          <a href="#"  title="facebook"> 
+            <i class="fa fa-facebook-square" aria-hidden="true"></i>
+          </a>
+          <a href="#" title="twitter"> 
+            <i class="fa fa-twitter-square" aria-hidden="true"></i>
+          </a>
+          <a href="#" title="instagram">  
+            <i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
+  
+  
+    </section>
+
+
+    <script src="contact.js"></script>
+
+</body>
+</html>
